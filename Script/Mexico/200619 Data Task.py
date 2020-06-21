@@ -16,7 +16,7 @@ import pytz
 from pytz import timezone
 
 
-country_path = "/Users/Doris/Downloads/Electri/Chile/" #Path for Holding the Initial Zip and Final Output
+country_path = "/Users/Doris/Downloads/Electri/Mexico/" #Path for Holding the Initial Zip and Final Output
 os.mkdir(country_path)
 os.chdir(country_path)
 
@@ -87,7 +87,7 @@ for file in files:
 driver.close()
 
 
-raw_path = '/Users/Doris/Downloads/Electri/Chile/Raw/' # Path for Hosting Raw CSVs
+raw_path = '/Users/Doris/Downloads/Electri/Mexico/Raw/' # Path for Hosting Raw CSVs
 os.mkdir(raw_path)
 
 
@@ -97,11 +97,11 @@ with zipfile.ZipFile(zip_name, 'r') as zips:
     zips.printdir() 
     # extracting all the files 
     print('Extracting all the files now...') 
-    zips.extractall('/Users/Doris/Downloads/Electri/Chile/Raw/') 
+    zips.extractall(raw_path) 
     print('Done!') 
 
 
-cleanpath = '/Users/Doris/Downloads/Electri/Chile/Clean/' # Path for Storing First-Stage Cleaning CSVs[Suitable for Plotting]
+cleanpath = '/Users/Doris/Downloads/Electri/Mexico/Clean/' # Path for Storing First-Stage Cleaning CSVs[Suitable for Plotting]
 os.mkdir(cleanpath)
 
 
@@ -110,7 +110,7 @@ def prepa(file):
     try:
         open(file,'r')
         print("File opened successfully")
-        cleaned = clean+'_chile.csv'
+        cleaned = clean+'_mexico.csv'
         header_row_needed = True
         newheader = []
         write = []
@@ -175,7 +175,7 @@ for file in files:
 
 
 
-finetl_path = '/Users/Doris/Downloads/Electri/Chile/FinETL/' #Path for Storing Final Individual CSVs
+finetl_path = '/Users/Doris/Downloads/Electri/Mexico/FinETL/' #Path for Storing Final Individual CSVs
 os.mkdir(finetl_path)
 
 # For Time Zone Conversion
