@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-country_path = "/Users/Doris/Downloads/Electri/Chile/" #Path for Holding the Initial Zip and Final Output
+country_path = "/Users/Doris/Downloads/Electri/Mexico/" #Path for Holding the Initial Zip and Final Output
 os.mkdir(country_path)
 os.chdir(country_path)
 
