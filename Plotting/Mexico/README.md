@@ -7,7 +7,9 @@
 * X-Axis: Hour 
 * Y-Axis: Electricity Load 
 * Plots with colored area indicate that the area is serviced by at least 2 systems. 
-* While plotting the charts, I have also queried the data with conditions to capture potential missing data. Query results could be found in the `Associated Jupyter Notebook` linked above.
+* While plotting the charts, I have also queried the data with conditions to capture missing data. Query results could be found in the `Associated Jupyter Notebook` linked above.
+> Listed dates under region name indicate that for the named region and the dates, hourly data is missing for 1 hour or more. 
+> *Region, Data Incomplete* indicates that for named region, at least 1 full month's hourly data is missing. 
 
 ## 2016
 [Full Size Figure](https://github.com/dorisludo/Electricity-Data-ETL/blob/master/Images/Mexico_2016.png)
