@@ -7,7 +7,7 @@ All requirements must be installed and set up for command line usage. For furthe
 * pip (>=10.0)
 * Homebrew
 
-To run the scrips as-is in `Script`, the following packages should be installed in your Python environment: 
+To run the scripts as-is in `Script`, the following packages should be installed in your Python environment: 
 
 * pandas
 * seaborn 
