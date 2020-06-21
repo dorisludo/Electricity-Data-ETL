@@ -17,12 +17,16 @@ To run the scripts as-is in `Script`, the following packages should be installed
 * numpy
 * chromedriver 
 
-The packages and are used by the scripts contained in the repository. 
+To replicate the plotting and data completion check as-is in `/Plotting/Mexico`, the following package should also be installed in your Python environment:
+
+* Jupyter Notebook
+
+The packages are used by the scripts contained in the repository. 
 
 ## Setup
 **If you are using Windows, you will need to run all bash commands in administrator mode. To do so, open your terminal by right clicking and selecting `Run as administrator`. To set administrator mode on permanently, refer to the [RA manual](https://github.com/gentzkow/template/wiki/Repository-Usage#Administrator-Mode).**
 
-**For Windows set-up of selenium and ChromeDriver:** please refer to `Detailed instructions for Windows users` [here](https://selenium-python.readthedocs.io/installation.html).
+**For Windows set-up of selenium and ChromeDriver:** please refer to [Detailed instructions for Windows users](https://selenium-python.readthedocs.io/installation.html).
 
 1. Install Python dependencies listed above using pip. 
 
