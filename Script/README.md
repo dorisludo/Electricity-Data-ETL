@@ -14,6 +14,8 @@ The script contains three parts.
 
 Together the `prepa` function and the `panda_prepa` function alongside time conversion functions used in `panda_prepa` transform the raw data into a clean CSV with the designated columns.
 
+One thing to note is that the script steps through all files contained in the Zip. However, if one is interested in only using the raw data with a particular settlement for consistency or for reducing computation time, it could be done through matching the settlement of choice with a regular expression when iterating over the *# Raw CSV Clean Function* section in the script.
+
 The Zip file and the final CSV could be found under the `/Data/Mexico` subdirectory.
 
 ## 200619 Cicala Data Task Individual Dates Download
