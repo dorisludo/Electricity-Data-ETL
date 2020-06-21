@@ -1,7 +1,7 @@
 # README
 
 ## Requirements
-All requirements must be installed and set up for command line usage. For further detail, see the **Command Line Usage** section below.
+All requirements must be installed and set up for command line usage. 
 
 * Python (3.7)
 * pip (>=10.0)
