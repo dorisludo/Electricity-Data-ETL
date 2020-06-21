@@ -1,8 +1,8 @@
 # Script
 
 Two scripts are uploaded under the `Mexico` folder:<br>
-* [200619 Cicala Data Task](https://github.com/dorisludo/Electricity-Data-ETL/blob/master/Script/Mexico/200619%20Cicala%20Data%20Task.py)
-* [200619 Cicala Data Task Individual Dates Download](https://github.com/dorisludo/Electricity-Data-ETL/blob/master/Script/Mexico/200619%20Cicala%20Data%20Task%20Individual%20Dates%20Download.py)
+* [200619 Data Task](https://github.com/dorisludo/Electricity-Data-ETL/blob/master/Script/Mexico/200619%20Data%20Task.py)
+* [200619 Data Task Individual Dates Download](https://github.com/dorisludo/Electricity-Data-ETL/blob/master/Script/Mexico/200619%20Data%20Task%20Individual%20Dates%20Download.pyy)
 
 ## 200619 Cicala Data Task
 This script allows one to scrap [Gobierno de Mexico](https://www.cenace.gob.mx/SIM/VISTA/REPORTES/DemandaRealSist.aspx), download the zip file containing hourly load data between Jan-27 2016 and Jun-05 2020, and perform the necessary cleaning. 
