@@ -3,14 +3,14 @@
 [Associated Jupyter NoteBook](https://github.com/dorisludo/Electricity-Data-ETL/blob/master/Plotting/Mexico/200620%20Mexico%20Plotting.ipynb)
 
 ***Note:***<br>
-* Each individual line chart captures the hourly electricity data per region per month, while the different lines represent a specific date in the month. 
+* Each individual line chart captures the hourly load per region per month, while the different lines represent a specific date in the month. 
 * X-Axis: Hour 
 * Y-Axis: Electricity Load 
 * Plots with colored area indicate that the area is serviced by at least 2 systems. 
 * While plotting the charts, I have also queried the data with conditions to capture missing data. Query results could be found in the `Associated Jupyter Notebook` linked above.
-> Listed dates under region name indicate that for the named region and the dates, hourly data is missing for 1 hour or more. 
-> *Region, Data Incomplete* indicates that for named region, at least 1 full month's hourly data is missing. 
-
+  - Listed dates under region name indicate that for the named region and the date, hourly data is missing for 1 hour or more.
+   - *Region, Data Incomplete* indicates that for named region, at least 1 full month's hourly data is missing. 
+  
 ## 2016
 [Full Size Figure](https://github.com/dorisludo/Electricity-Data-ETL/blob/master/Images/Mexico_2016.png)
 <p align="center">
